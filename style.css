@@ -1,0 +1,77 @@
+.menu {}
+.menu  a{
+      margin-right: 15px;
+}
+
+/* banner start */
+.banner{
+        padding-top: 45px;
+}
+.b-img{}
+.b-img img{}
+.b-content{}
+.b-content h1{
+        font-family: 'Bebas Neue', cursive;
+        color:#FA804C ;
+        font-size: 80px;
+}
+.b-content span{
+        color:   #363958;
+}
+.b-content p{
+        line-height: 28px;
+
+}
+.b-content button{
+        padding: 10px 25px;
+        transition: .3s all ease-in;
+}
+.b-content button:hover{
+        background-color: #FA804C;
+        color: white;
+        border: 1px solid #FA804C;
+}
+/* banner end */
+/* shoes start */
+.title-h1{
+        color: #363958;
+}
+.shoes{
+        padding-top: 70px;
+
+}
+.c-img{
+        background: #F1F1F1;
+      
+}
+.c-img img{
+        
+}
+.c-card{
+        background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+border-radius: 20px !important;
+padding: 15px 20px !important;
+
+}
+.c-h2{
+        color: #FA804C;
+        font-size: 35px;
+        font-weight: 700;
+}
+.s-btn{
+        padding: 10px 25px;
+        transition: .3s all ease-in;
+}
+.s-btn:hover{
+        background-color: #FA804C;
+        color: white;
+        border: 1px solid #FA804C;
+}
+/* shoes end */
+
+/* formal shoes start */
+.formal-shoes{
+        padding-top: 70px;
+}
+/* formal shoes end */
