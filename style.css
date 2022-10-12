@@ -1,13 +1,27 @@
+body{
+        background-color:  #E5E5E5;
+}
+header{
+        background-color: #FFF9F4;
+}
 .menu {}
 .menu  a{
       margin-right: 15px;
+      transition: .3s all ease-in;
+}
+.menu  a:hover{
+        color:#FA804C;
 }
 
 /* banner start */
 .banner{
         padding-top: 45px;
+  
+      
 }
-.b-img{}
+.b-img{
+        padding-bottom: 60px;
+}
 .b-img img{}
 .b-content{}
 .b-content h1{
@@ -75,3 +89,34 @@ padding: 15px 20px !important;
         padding-top: 70px;
 }
 /* formal shoes end */
+
+/* service start */
+.service{}
+.s-content{
+        background: #FFFFFF;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        padding: 10px 35px;
+        margin-bottom: 25px;
+
+
+}
+.s-img{}
+.s-wrap{
+      padding:  0 18px;
+       
+}
+.s-h1{
+        color: #363958;
+        font-family: 'Bebas Neue', cursive;
+       
+}
+.s-p{
+        font-family: 'Bebas Neue', cursive;
+        color:  #3E3E3E;
+        font-weight: 400;
+        font-size: 20px;
+        /* line-height: 28px;
+         */
+}
+/* service end */
